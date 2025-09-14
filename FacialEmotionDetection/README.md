@@ -14,7 +14,7 @@ It was developed from scratch without using pretrained models.
 
 ---
 
-## 🚀 Usage
+## Usage
 ### 1. Train
 ```bash
 python train.py --data /path/to/KDEF --epochs 20
@@ -27,13 +27,15 @@ python predict.py --image sample.jpg --weights best_model.pth
 
 ---
 
-## 🧠 Techniques Used
+## Techniques Used
 - Custom CNN architecture (no pretrained models).  
 - Dataset: KDEF (4 emotions).  
 - Framework: PyTorch.  
 
 ---
 
-## 📊 Results
+## Results
 Achieved good performance on 4 basic emotions.  
-(Add accuracy/F1 score if you want here.)
+<img width="627" height="525" alt="image" src="https://github.com/user-attachments/assets/fdea1269-620e-4546-9598-f2c11a620737" />
+<img width="885" height="660" alt="image" src="https://github.com/user-attachments/assets/7dae0a8f-d251-473f-a631-25da04a8a064" />
+
